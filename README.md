@@ -55,9 +55,9 @@ We focused on analyzing only the IPs where *Critical* and *High* severity vulner
 
   ## 📑 Report Files
 
-- [192.168.1.6_critical_high.md](report/192.168.1.6_critical_high.md)
-- [192.168.1.1_critical_high.md](report/192.168.1.1_critical_high.md)
-- [summary.md](report/summary.md) – Overall findings summary
+- [192.168.1.6_critical_high.md](Report/192.168.1.6_critical_high.md)
+- [192.168.1.1_critical_high.md](Report/192.168.1.1_critical_high.md)
+- [summary.md](Report/summary.md) – Overall findings summary
 
 
 ## 🔐 Disclaimer
