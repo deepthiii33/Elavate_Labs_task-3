@@ -33,6 +33,8 @@ This repository contains the findings from a vulnerability assessment conducted 
    - Choose Nessus Essentials
    - Register with your email to get a free activation code
    - Start scanning once setup completes.
+5. Start scanning once setup completes.
+
 
 ## 📸 Nessus Setup & Scan Screenshots
 
