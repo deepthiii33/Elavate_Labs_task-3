@@ -13,33 +13,33 @@ This report summarizes the **Critical** and **High** vulnerabilities identified 
 
 | IP Address     | Severity  | Count | Key Vulnerabilities                                 |
 |----------------|-----------|-------|-----------------------------------------------------|
-| 192.168.1.6    | 🔐 Critical | 2     | Node.js Multiple CVEs, Apache HTTPD < 2.4.60        |
-|                | ⚠️ High     | 7     | Node.js, Apache, Curl, Tornado vulnerabilities      |
-| 192.168.1.1    | 🔐 Critical | 1     | SSL v2/v3 Protocol Enabled                          |
-|                | ⚠️ High     | 1     | 3DES/SWEET32 Cipher Support                         |
+| 192.168.1.6    |  Critical | 2     | Node.js Multiple CVEs, Apache HTTPD < 2.4.60        |
+|                |  High     | 7     | Node.js, Apache, Curl, Tornado vulnerabilities      |
+| 192.168.1.1    |  Critical | 1     | SSL v2/v3 Protocol Enabled                          |
+|                |  High     | 1     | 3DES/SWEET32 Cipher Support                         |
 
 ---
 
-## 🔐 Critical Vulnerabilities (2 Hosts)
+##  Critical Vulnerabilities (2 Hosts)
 
-### ✅ 192.168.1.6
+###  192.168.1.6
 - **Node.js < 18.19.1 / 20.11.1 / 21.6.2** – Multiple CVEs (DoS, RCE, Path Traversal)
 - **Apache HTTPD < 2.4.60** – Multiple CVEs (DoS, SSRF, Auth Bypass)
 
-### ✅ 192.168.1.1
+###  192.168.1.1
 - **SSL v2/v3 Protocol Support** – Deprecated protocols allow downgrade and MITM attacks
 
 ---
 
-## ⚠️ High Vulnerabilities (2 Hosts)
+##  High Vulnerabilities (2 Hosts)
 
-### ✅ 192.168.1.6
+###  192.168.1.6
 - **Node.js < 18.20.6** – Memory leaks, Permission model bypass, Import override
 - **Apache HTTPD < 2.4.59** – HTTP Response Splitting, HTTP/2 DoS
 - **Curl < 8.12.0** – Memory leaks, Gzip decompression overflow
 - **Tornado < 6.5.0** – Log flood DoS via multipart parsing
 
-### ✅ 192.168.1.1
+###  192.168.1.1
 - **SSL 3DES Cipher Support** – SWEET32 vulnerability
 
 ---
